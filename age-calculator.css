@@ -1,0 +1,16 @@
+body {
+    background-color: hsl(0, 0%, 94%);
+    background-color: hsl(0, 0%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: white;
+    height: 600px;
+    width: 900px;
+    border-radius: 30px 30px 200px 30px;
+
+}
