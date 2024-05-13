@@ -6,7 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: 'Poppins';
+    font-family: 'Poppins', 'sans-serif';
     font-weight: 800;
 }
 .container {
@@ -53,10 +53,30 @@ label {
     position: relative;
     left: 35rem;
     top: 1.5rem;
+    border-color: hsl(259, 100%, 78%);
   }
-  .image {
+  button:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 5px hsl(259, 100%, 78%);
+    background-color: hsl(259, 98%, 65%);
+    border-color: hsl(259, 100%, 78%);
+
+  }
+
+
+  .flex {
+    display: flex;
+    flex-direction: row;
+    margin: -100px;
+    font-size: 31px;
+  }
+
+  .lines {
+    margin: 3rem;
+    color: hsl(259, 100%, 65%);
+  }
+  .numbers-container {
     position: relative;
-    left: 1rem;
-    top: 1.5rem;
-    color: red;
+    top: 6rem;
+    left: 8rem
   }

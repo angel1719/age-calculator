@@ -1,30 +1,52 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="age-calculator.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
 
-    </head>
-    <body>
-        <div class="container">
-            <div class="input-container" style="display: flex; flex-direction: row;">
-                <div style="display: flex; flex-direction: column;">
-                    <label for="day">DAY</label>
-                    <input placeholder="DD" id="day" class="input-box" type="text">
-                </div>
-                <div style="display: flex; flex-direction: column;">
-                    <label for="month">MONTH</label>
-                    <input placeholder="MM" id="month" class="input-box" type="text">
-                </div>
-                
-                <div style="display: flex; flex-direction: column;">
-                    <label for="year">YEAR</label>
-                    <input placeholder="YYYY" id="year" class="input-box" type="text">
-                </div>
+<head>
+    <link rel="stylesheet" href="age-calculator.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="input-container" style="display: flex; flex-direction: row;">
+            <div style="display: flex; flex-direction: column;">
+                <label for="day">DAY</label>
+                <input placeholder="DD" id="day" class="input-box" type="text">
             </div>
-            <hr class="divider">
-            <span class="dot">
-                <img class="image" src="icon-arrow.svg">
-            </span>
+            <div style="display: flex; flex-direction: column;">
+                <label for="month">MONTH</label>
+                <input placeholder="MM" id="month" class="input-box" type="text">
+            </div>
+
+            <div style="display: flex; flex-direction: column;">
+                <label for="year">YEAR</label>
+                <input placeholder="YYYY" id="year" class="input-box" type="text">
+            </div>
         </div>
-    </body>
+        <hr class="divider">
+        <button onclick="myFunction()" class="dot">
+            <img class="image" src="icon-arrow.svg">
+        </button>
+        <div class="numbers-container">
+            <div class="flex">
+                <h1 class="lines">--</h1>
+                <h1 class="years">years</h1>
+            </div>
+            <div class="flex">
+                <h1 class="lines">--</h1>
+                <h1 class="months">months</h1>
+            </div>
+            <div class="flex">
+                <h1 class="lines">--</h1>
+                <h1 class="days">days</h1>
+            </div>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            console.log("hi");
+        }
+    </script>
+</body>
+
 </html>
